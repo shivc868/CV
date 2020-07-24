@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Yesteryear&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  color: #022C43;
+  font-family: 'Titillium Web', sans-serif;
+  background: #FCFCFC;
+}
+.item{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+
+}
+.item1 h1{
+    color: #115173;
+    font-family: "Yesteryear", serif;
+    font-size: 5rem;
+    font-weight: normal;
+    margin-bottom: .7rem;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.item1 h1 span{
+
+      color: #022C43;
+    font-family: "Yesteryear", serif;
+}
+.section-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.carousel-control.right{
+  background: none;
+}
+.carousel-control.left{
+  background: none;
+}
+.item-heading{
+  text-align: left;
+}
+.carousel-inner{
+  width: 80%;
+  margin: auto;
+}
+.section-heading {
+  padding-left: 2px;
+    color: #115173;
+    border-bottom: 1px solid #DADADA;
+    font-family: "Yesteryear", serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.section-content p span {
+    font-weight: bold;
+}
+.section-content p a {
+    color: #022C43;
+    font-weight: bold;
+    -webkit-transition: color .1s linear;
+    -o-transition: color .1s linear;
+    transition: color .1s linear;
+}
+.section-content p a:hover{
+  color: yellow;
+}
+.fab{
+  margin-right: 5px;
+}
+.fas{
+  margin-right: 5px;
+}
